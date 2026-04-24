@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { Upload, Play, Loader, Send, AlertCircle } from 'lucide-react';
+import React, { useState } from 'react';
+import { Play, Loader, AlertCircle } from 'lucide-react';
 import VideoUpload from './components/VideoUpload';
 import AnalysisResults from './components/AnalysisResults';
 import InputPanel from './components/InputPanel';
