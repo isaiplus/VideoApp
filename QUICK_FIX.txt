@@ -1,0 +1,44 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║           🔧 QUICK FIX FOR MISSING DEPENDENCIES ERROR           ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+You got this error:
+  "Module not found: Error: Can't resolve 'lucide-react'"
+  "Module not found: Error: Can't resolve 'axios'"
+
+WHY?
+  The npm packages haven't been installed yet.
+
+HOW TO FIX:
+  
+  1. Open Terminal/Command Prompt
+  
+  2. Navigate to VideoApp:
+     cd ~/Developer/Repos/VideoApp
+  
+  3. Run one of these:
+  
+     EASIEST - Auto install script:
+     bash INSTALL_DEPENDENCIES.sh
+     
+     OR - Manual install:
+     npm install
+     cd client && npm install && cd ..
+     cd server && npm install && cd ..
+  
+  4. Wait for installation to finish (2-5 minutes)
+  
+  5. Then run:
+     npm run dev
+
+That's it! ✨
+
+═══════════════════════════════════════════════════════════════════
+
+STILL NOT WORKING?
+
+Read the full guide: FIX_DEPENDENCIES.md
+
+═══════════════════════════════════════════════════════════════════

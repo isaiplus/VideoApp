@@ -1,0 +1,19 @@
+{
+  "name": "video-analysis-app",
+  "version": "1.0.0",
+  "description": "AI-powered video analysis app for sports (wrestling, etc.) with PWA support",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
